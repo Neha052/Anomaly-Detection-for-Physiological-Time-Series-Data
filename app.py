@@ -68,7 +68,7 @@ st.success("Loaded pre-trained Isolation Forest model!")
 # -----------------------------
 # Sample patients
 # -----------------------------
-sample_folder = "sample_patients\\"
+sample_folder = "sample_patients/"
 sample_files = [f for f in os.listdir(sample_folder) if f.endswith('.dat')]
 window_size = 100
 window_step = 50
